@@ -13,4 +13,4 @@ const InlineStylePractice =()=>{
     );
 }
 
-export default InlineStylePractice;
+export default InlineStylePractice; 
