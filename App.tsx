@@ -7,6 +7,8 @@ import PropsPractice from './components/PropsPractice';
 
 import InlineStylePractice from './components/InlineStylePractice';
 
+import OnChangeAndOnSubmit from './components/OnChangeAndOnSubmit'
+
 
 const style = StyleSheet.create ({
 
@@ -52,8 +54,8 @@ function App(): React.JSX.Element{
             {/* <Button title='Update' onPress={()=>handleUserData("Parkash",23)}></Button>
             <PropsPractice name={name} age={age}/> */}
 
-            <InlineStylePractice/>
-
+            {/* <InlineStylePractice/> */}
+            <OnChangeAndOnSubmit/>
         </View>
     );
 }

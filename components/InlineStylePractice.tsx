@@ -6,8 +6,18 @@ const InlineStylePractice =()=>{
 
     return(
         <View>
-            <Text>
-            StyleSheet
+            <Text style={{fontSize:30,color:'red'}}>
+                     StyleSheet
+            </Text>
+
+            <Text style={{fontSize:30,color:'red'}}>
+                     StyleSheet
+            </Text>
+            <Text style={{fontSize:30,color:'red'}}>
+                     StyleSheet
+            </Text>
+            <Text style={{fontSize:30,color:'red'}}>
+                     StyleSheet
             </Text>
         </View>
     );
