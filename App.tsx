@@ -5,6 +5,8 @@ import Component from './components/components';
 import StatePractice from './components/StatePractice'
 import PropsPractice from './components/PropsPractice';
 
+import InlineStylePractice from './components/InlineStylePractice';
+
 
 const style = StyleSheet.create ({
 
@@ -37,17 +39,20 @@ function App(): React.JSX.Element{
         setName(name)
         setAge(age)
     }
+
     return (
         <View>  
             <Text style={style.container}>
-                React Native App
+                React Native Application
             </Text>
 
             {/* <UseStatePratice/> */}
             {/* <Component/> */}
             {/* <StatePractice/> */}
-            <Button title='Update' onPress={()=>handleUserData("Parkash",23)}></Button>
-            <PropsPractice name={name} age={age}/>
+            {/* <Button title='Update' onPress={()=>handleUserData("Parkash",23)}></Button>
+            <PropsPractice name={name} age={age}/> */}
+
+            <InlineStylePractice/>
 
         </View>
     );
